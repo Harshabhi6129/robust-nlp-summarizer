@@ -1,12 +1,4 @@
 import streamlit as st
-import spacy
-try:
-    spacy.load("en_core_web_sm")
-except OSError:
-    from spacy.cli import download
-    download("en_core_web_sm")
-    spacy.load("en_core_web_sm")
-
 from summarizer import TextSummarizer
 
 st.set_page_config(page_title="NLP Text Summarizer", page_icon="📝", layout="wide")
