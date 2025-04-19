@@ -6,8 +6,8 @@ torchvision
 torchaudio
 
 # --- NLP stack ---
-spacy==3.7.2          # wheel available for Py3.10
-thinc==8.3.0          # matches spaCy 3.7.x
+spacy==3.7.2          # wheel for py310
+thinc==8.3.0          # companion of spaCy 3.7.x
 https://github.com/explosion/spacy-models/releases/download/en_core_web_sm-3.7.0/en_core_web_sm-3.7.0-py3-none-any.whl
 
 # --- I/O helpers ---
