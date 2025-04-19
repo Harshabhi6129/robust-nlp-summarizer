@@ -1,11 +1,18 @@
+# --- core ---
 streamlit
-transformers
-torch
+transformers==4.39.3
+torch==2.1.0
 torchvision
 torchaudio
-spacy==3.7.2           # wheel for py310
-thinc==8.3.0           # matches spaCy 3.7.x
+
+# --- NLP stack ---
+spacy==3.7.2          # wheel available for Py3.10
+thinc==8.3.0          # matches spaCy 3.7.x
+https://github.com/explosion/spacy-models/releases/download/en_core_web_sm-3.7.0/en_core_web_sm-3.7.0-py3-none-any.whl
+
+# --- I/O helpers ---
 pdfplumber
+newspaper3k==0.2.8    # your friend’s URL parser
+lxml                  # newspaper3k dependency
 beautifulsoup4
 requests
-
