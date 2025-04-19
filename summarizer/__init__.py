@@ -1,3 +1,4 @@
-from .text_summarizer import TextSummarizer
+from summarizer.text_summarizer import TextSummarizer
+
 
 __all__ = ["TextSummarizer"]
