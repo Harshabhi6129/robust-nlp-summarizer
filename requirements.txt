@@ -3,8 +3,9 @@ transformers
 torch
 torchvision
 torchaudio
-spacy
+spacy==3.7.2          # wheel available for Py3.10 & 3.11
+thinc==8.3.0          # matches spaCy 3.7.x
 pdfplumber
 beautifulsoup4
 requests
-https://github.com/explosion/spacy-models/releases/download/en_core_web_sm-3.5.0/en_core_web_sm-3.5.0-py3-none-any.whl
+https://github.com/explosion/spacy-models/releases/download/en_core_web_sm-3.7.0/en_core_web_sm-3.7.0-py3-none-any.whl
